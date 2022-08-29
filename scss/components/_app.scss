@@ -1,0 +1,26 @@
+/*=============== APP ===============*/
+.app{
+    &__container{
+        gap: 2.5rem;
+    }
+    &__data{
+        text-align: center;
+        background: #018FA3;
+        box-shadow: 0px 50px 50px -27px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        width: 390px;
+        height: 480px;
+        padding: 20px;
+        color: white;
+    }
+    &__description{
+        margin-bottom: var(--mb-1-5);
+    }
+    &__buttons{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        gap: .5rem
+    }
+}
