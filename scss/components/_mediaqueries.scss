@@ -19,10 +19,18 @@
     .app__buttons{
         grid-template-columns: max-content;
     }
+     .home__add-icon{
+        display: none;
+    }
+    .about__icon-rad{
+        display: none;
+    }
 }
+
 
 /* For medium devices */
 @media screen and (min-width: 576px){
+
     .svg__img{
         width: 100%;
     }
@@ -64,6 +72,7 @@
     .app__img{
         order: -1;
     }
+
 }
 
 @media screen and (min-width: 767px){
@@ -84,6 +93,7 @@
             display: none;
         }
     }
+
 
     .change-theme{
         position: initial;

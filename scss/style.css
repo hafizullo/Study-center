@@ -138,7 +138,7 @@ body.dark-theme {
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
+  max-width: 1068px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -251,6 +251,7 @@ body.dark-theme {
 }
 .button__header {
   display: none;
+  padding: 15px 50px;
 }
 .button-link {
   background: #018FA3;
@@ -335,6 +336,7 @@ body.dark-theme {
   border-radius: 30px;
   padding: 20px;
   color: white;
+  order: 1;
 }
 .app__description {
   margin-bottom: var(--mb-1-5);
@@ -370,20 +372,24 @@ body.dark-theme {
 
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--first-color-lighten);
+  background-color: #0A2530;
   padding-bottom: 2rem;
 }
 .footer__container {
   row-gap: 2rem;
 }
+.footer__content {
+  color: white;
+}
 .footer__logo, .footer__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-75);
+  color: white;
 }
 .footer__logo {
   display: inline-block;
   font-weight: var(--font-semi-bold);
-  color: var(--title-color);
+  color: white;
 }
 .footer__description, .footer__link {
   font-size: var(--small-font-size);
@@ -393,26 +399,26 @@ body.dark-theme {
   row-gap: 0.5rem;
 }
 .footer__link {
-  color: var(--title-color);
+  color: white;
 }
 .footer__social {
   display: flex;
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
+  color: white;
 }
 .footer__social-link {
   font-size: 1.25rem;
-  color: var(--title-color);
+  color: white;
 }
 .footer__social-link:hover {
-  color: white;
   opacity: 70%;
 }
 .footer__copy {
   margin-top: 6rem;
   text-align: center;
   font-size: var(--smaller-font-size);
-  color: var(--text-color);
+  color: white;
 }
 
 /*=============== SCROLL UP ===============*/
@@ -474,6 +480,12 @@ body.dark-theme {
   .app__buttons {
     grid-template-columns: -webkit-max-content;
     grid-template-columns: max-content;
+  }
+  .home__add-icon {
+    display: none;
+  }
+  .about__icon-rad {
+    display: none;
   }
 }
 /* For medium devices */
